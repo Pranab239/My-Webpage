@@ -1,0 +1,108 @@
+html {
+    background-color: rgb(219, 238, 238);
+}
+
+.navbar {
+    background-color: rgb(219, 238, 238);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#index a {
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+
+#index li :hover {
+    font-size: 15pt;
+    border-bottom-style: outset;
+    border-bottom-color: blue;
+}
+
+#index {
+    width: 50%;
+}
+
+#index ul {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14pt;
+    margin-left: 0;
+}
+
+#myimage {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    border-radius: 3%;
+}
+
+#desc {
+    margin-left: 30px;
+    font-size: 11pt;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#logo {
+    margin-left: 20px;
+    width: 25%;
+}
+
+#vertical_divide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#horizontal_divide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#myvideo {
+    border-radius: 1%;
+}
+
+#contact_me{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#contact_me a{
+    width: 7%;
+    margin: 2px;
+    margin-top: 10px;
+}
+#contact_me img{
+    width: 65%;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#align {
+    width: 100%;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+#projects {
+    list-style: disc;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22pt;
+    margin-right: 60px;
+}
